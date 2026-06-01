@@ -1,2 +1,5 @@
 # ios10 icloud bypass
-This script will bypass ios 10 (and lower) icloud activation lock due deleting setup.app
+
+mount_apfs /dev/disk0s1s1 /mnt1
+rm -rf /mnt1/Applications/Setup.app
+/usr/sbin/nvram oblit-inprogress=5
