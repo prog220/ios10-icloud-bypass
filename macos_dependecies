@@ -1,0 +1,2 @@
+brew install libimobiledevice libusb sshpass
+brew install hudochenkov/sshpass/sshpass
